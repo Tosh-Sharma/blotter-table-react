@@ -1,0 +1,23 @@
+.ReactTable {
+    background-color: #01325B;
+}
+
+.ReactTable .rt-thead .rt-resizable-header-content {
+    color: #FFF;
+}
+
+.ReactTable .rt-th {
+    border-left: 1px solid #FFF;
+    border-top: 1px solid #FFF;
+    border-bottom: none;
+}
+
+.ReactTable .rt-tbody .rt-td {
+    color: #FFC200;
+    border-left: 1px solid #FFF;
+    border-top: 1px solid #FFF;
+}
+
+.ReactTable .rt-thead.-filters .rt-th {
+    border-top: none;
+}

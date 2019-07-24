@@ -1,0 +1,21 @@
+{
+  "name": "react-project",
+  "version": "0.1.0",
+  "private": true,
+  "author": "to1995sh@gmail.com",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "prop-types": "^15.7.2",
+    "react": "^16.5.1",
+    "react-autobind": "^1.0.6",
+    "react-dom": "^16.5.1",
+    "react-table": "^6.10.0",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && rm deployment.zip ; zip -r deployment.zip . -x '*node_modules/*' '.git/*'",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
